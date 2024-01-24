@@ -1,2 +1,2 @@
-static-webapp.io 
+# static-webapp.io 
 creation page github static
