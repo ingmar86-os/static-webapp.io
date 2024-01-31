@@ -1,5 +1,5 @@
 body{
-  background-color: green;
+  background-color: blue;
 }
 /*navbar  menu */
 .navbar {
@@ -9,11 +9,39 @@ body{
   z-index: 1;
   top: 0;
   left: -250px;
-  background-color: #e8e8e8;
+  background-color: black;
   padding-top: 60px;
   transition: left 0.5s ease;
 }
-/* Sidenav menu links */
+header.navmenu {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  font-size: 12px;
+}
+header.navmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+header.navmenu li{
+  float: left;
+  display: inline;
+}
+header.navmenu li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+ text-align: center;
+}
+
+header.navmenu li a:hover {
+  background-color: #111;
+}
+
 .navbar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -24,7 +52,7 @@ body{
 }
 
 .navbar a:hover {
-  color: #111;
+  color: blue;
 }
 
 .navbar ul {
@@ -51,6 +79,6 @@ body{
   display: block;
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: white;
   margin: 6px 0;
 }
