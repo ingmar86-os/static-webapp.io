@@ -7,7 +7,14 @@
     <body>
         <h1>map</h1>
         </br>
-        <iframe src="https://www.google.com/maps/place/BRUXELLES+MIDI,+Bd+du+Midi,+1060+Bruxelles/@50.8374692,4.3355887,16z/data=!4m6!3m5!1s0x47c3c46d09a30109:0x9aa1340b8faa36d4!8m2!3d50.8374692!4d4.3355887!16s%2Fg%2F11gbl341l1" style="width: 400px; height: 600px">
-            <iframe />
+             <div id='map' style='width: 400px; height: 300px;'>
+             </div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiaW5nbWFyODYiLCJhIjoiY2xzamVzaDRmMTNzejJrbGg3bmcwcWJuayJ9.MLqZPkaD1Rqc7CcJR5FiVg';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11'
+  });
+</script>
     </body>
 </html>
