@@ -2,4 +2,4 @@
 creation page github static
 
 #comment télécharger
-git clone https://github.com/ingmar86-os.github.io/static-webapp.io/
+git clone https://github.com/ingmar86-os/static-webapp.io.git
